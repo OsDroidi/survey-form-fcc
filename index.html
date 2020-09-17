@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="free">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </div>
+
+    <div id="card">
+      <div>
+        <form action="" id="survey-form">
+          <label for="fname" id="name-label">Name</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+          <label for="lname" id="email-label">Email</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your Email"
+            required
+          /><br /><br />
+          <label for="age" id="number-label">Age (optional)</label><br />
+          <input
+            type="number"
+            min="10"
+            max="60"
+            id="number"
+            placeholder="Age"
+          /><br /><br /><br />
+          <label for="">Which option best describes your current role?</label
+          ><br />
+
+          <select id="dropdown">
+            <option value="" selected disabled hidden>
+              Select current role
+            </option>
+            <option value="saab">Stuedent</option>
+            <option value="opel">Full time job</option>
+            <option value="audi">Full time learner</option>
+            <option value="audi">Prefer not to say</option>
+            <option value="audi">Others</option>
+          </select>
+          <br /><br />
+
+          <label for=""> Would you recommend freeCodeCamp to a friend? </label>
+
+          <br /><br />
+
+          <label class="radiocontainer"
+            >Definitely
+            <input type="radio" checked="checked" name="radio" />
+            <span class="radiocheckmark"></span>
+          </label>
+          <label class="radiocontainer"
+            >Maybe
+            <input type="radio" name="radio" />
+            <span class="radiocheckmark"></span>
+          </label>
+          <label class="radiocontainer"
+            >Not sure
+            <input type="radio" name="radio" />
+            <span class="radiocheckmark"></span>
+          </label>
+
+          <br />
+
+          <label for="">What is your favorite feature of freeCodeCamp?</label
+          ><br />
+          <select id="role">
+            <option value="" selected disabled hidden>Select an option</option>
+            <option value="volvo">Challenges</option>
+            <option value="saab">Projects</option>
+            <option value="opel">Community</option>
+            <option value="audi">Open Source</option></select
+          ><br /><br />
+          <label for="">
+            What would you like to see improved? (Check all that apply)
+          </label>
+          <br /><br />
+
+          <label class="container"
+            >Front-end Projects
+            <input type="checkbox" checked="checked" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Back-end Projects
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Data Visualization
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Challenges
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Open Source Community
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container"
+            >Gitter help rooms
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Videos
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >City Meetups
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Wiki
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Forum
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Additional Courses
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <br /><br />
+
+          <label for="">Any comments or suggestions?</label><br /><br />
+          <textarea
+            id="w3review"
+            name="w3review"
+            rows="4"
+            cols="50"
+            placeholder="Enter your comment here"
+          ></textarea
+          ><br /><br />
+
+          <input type="submit" id="submit" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        Made by Osama Saeed for
+        <a href="https://www.freecodecamp.org/learn" target="_blank"
+          >FreeCodeCamp</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
